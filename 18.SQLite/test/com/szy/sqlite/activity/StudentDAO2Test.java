@@ -9,8 +9,8 @@ import com.szy.sqlite.dao.StudentDAO2;
 import com.szy.sqlite.model.Student;
 
 /**
- * @author  test	
- * @blog    HELLP
+ * @author  coolszy
+ * @blog    http://blog.csdn.net/coolszy
  */
 public class StudentDAO2Test extends AndroidTestCase
 {
@@ -39,7 +39,7 @@ public class StudentDAO2Test extends AndroidTestCase
 		Student student=StudentDAO2.find(1);
 		if (null==student)
 		{
-			Log.i(TAG, "we have not found anything");
+			Log.i(TAG, "not find");
 		}
 		else
 		{
